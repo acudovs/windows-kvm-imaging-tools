@@ -29,7 +29,7 @@ image="$(docker inspect --format {{.GraphDriver.Data.UpperDir}} docker.io/alekse
 
 sudo pigz -c -d "${image}" | sudo dd of=/var/lib/libvirt/images/win10.localhost.qcow2 status=progress
 
-sudo qemu-img resize /var/lib/libvirt/images/win10.localhost.qcow2 40G
+sudo qemu-img resize /var/lib/libvirt/images/win10.localhost.qcow2 100G
 
 sudo qemu-img info /var/lib/libvirt/images/win10.localhost.qcow2
 ```
