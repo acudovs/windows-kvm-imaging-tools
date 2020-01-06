@@ -10,6 +10,8 @@ https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/vi
 
 ### Download Windows 10 image
 
+Unofficial, clean, non-activated Windows 10 Pro image built from https://www.microsoft.com/en/software-download/windows10ISO
+
 ```
 docker pull docker.io/alekseychudov/windows-10-pro:1912
 ```
