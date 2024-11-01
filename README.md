@@ -61,7 +61,6 @@ sudo virt-install \
     --disk /var/lib/libvirt/images/win10.localhost.qcow2,device=disk,bus=virtio \
     --disk /var/lib/libvirt/images/win10.localhost.iso,device=cdrom \
     --network default \
-    --graphics spice \
     --channel unix,target_type=virtio,name=org.qemu.guest_agent.0 \
     --virt-type kvm \
     --os-variant win10 \
